@@ -1,0 +1,41 @@
+h1{display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: aqua;
+    border: 1px solid rgb(149, 216, 222);
+    border-radius: 5%;
+
+}
+.game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5.5px;
+    height: 60vh;
+    width: 60vw;
+    background-color: blanchedalmond;
+}
+.box{
+    height:15vh;
+    width: 15vw;
+    border-radius:5% ;
+    box-shadow: 0px 2px;
+    border-color: rgba(0, 0, 0, 0.356);
+    background-color: rgb(86, 215, 142);
+}
+
+.reset{
+    margin-top: 10px;
+    margin-left: 160px;
+    width: 20vw;
+    background-color: aquamarine;
+    border-radius: 5%;
+}
